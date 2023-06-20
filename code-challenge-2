@@ -1,0 +1,38 @@
+const speed = 85;
+if (isNaN(speed) || speed < 0 ) {
+    console.log("invalid input. Please enter a number greater than 0.");
+
+} else {
+    let print;
+
+if (speed <= 70){ 
+     print ="ok";
+} else if (speed ===75) {
+    print = "1";
+} else if (speed ===80) {
+    print = "2";
+} else if (speed ===85) {
+    print = "3";
+}else if (speed ===90)  {
+    print = "4";
+}else if (speed ===95) {
+    print ="5";
+}else if (speed ===100) {
+    print = "6";
+}else if (speed ===105) {
+    print = "7";
+}else if (speed ===110) {
+    print = "8";
+}else if (speed ===115) {
+    print = "9";
+}else if (speed ===120) {
+    print = "10";
+}else if (speed ===125) {
+    print = "11";
+}else if (speed === 130) {
+    print ="12" 
+}else {
+    print = 'License suspended';
+ 
+} console.log(print)
+}
